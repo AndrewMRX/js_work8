@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример скрипта</title>
+</head>
+<body>
+  <script>
+    function openWin() {
+      myWin = open("index69-2.html")
+    }
+    function closeIt() {
+      close();
+    }
+  </script>
+  <br>
+  <p style="text-align: center; font-size: 18px; color: rgb(87, 28, 0);">
+    Система безопасности не даст закрыть это окно. Подробности будут выводится в
+    консоль при попытке закрытия кнопкой ниже.
+  </p>
+  <form style="text-align: center;">
+    <input type="button" value="Не получится закрыть." onClick="closeIt()">
+    </input>
+  </form>
+  <br>
+  <p style="text-align: center; font-size: 18px; color: rgb(87, 28, 0);">
+    Поэтому сначала откроем скриптом новое окно.
+  </p>
+  <form style="text-align: center;">
+    <input type="button" value="Сначала мы откроем новое окно!" onClick="openWin()">
+    </input>
+  </form>
+</body>
+</html>

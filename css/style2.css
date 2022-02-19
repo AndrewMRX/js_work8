@@ -1,0 +1,264 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 4px;
+}
+.c1{
+  margin-left: 2px;
+}
+
+span{
+ color: rgb(157, 152, 152);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ letter-spacing: 0.5px;
+ padding-left: 2px;
+}
+
+h1 {
+  font: 22px/1.8 arial;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: rgb(87, 115, 152);
+  padding-bottom: 12px;
+  border: rgb(226, 222, 222);
+  border-bottom-style: solid;
+  border-width: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2px;
+ 
+  }
+h2 {
+  font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 32px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  word-spacing: 0.1px;
+  }
+
+  h3 {
+  font: bolder 19px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(87, 115, 152);;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  margin-left: 2px;
+  padding-bottom: 22px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.7px;
+  word-spacing: 0.1px;
+  border: rgb(226, 222, 222);
+  border-bottom-style: solid;
+  border-width: 3px;
+  }
+
+  h4 {
+  font: bolder 15px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(87, 115, 152);
+  margin-top: 14px;
+  margin-bottom: 18px;
+  margin-left: 2px;
+  padding-bottom: 14px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.7px;
+  word-spacing: 0.1px;
+  border: rgb(226, 222, 222);
+  border-bottom-style: solid;
+  border-width: 3px;
+  }
+
+.logoimg{
+  float:left;
+    margin-left: 7px;
+    margin-right: 14px;
+    margin-top: 9px;
+}
+
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  
+  background: #fff;
+  border: 1px solid black;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: black;
+  height: 24px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  width: 205px;
+  margin-left: 94px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.span_city{
+  color: rgb(100, 99, 99);
+  margin-left: 97px;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  
+}
+
+.country{
+  
+  margin-left: 96px;
+  margin-bottom: 0;
+  border-radius: 3px;
+  border-color: rgb(119, 119, 119);
+}
+
+.city{
+  margin-top: 20px;
+  margin-left: 98px;
+  margin-bottom: -1px;
+  border-radius: 3px;
+  border-color: rgb(119, 119, 119);
+}
+.school{
+  margin-top: -2px;
+  margin-left: 92px;
+  margin-bottom: 2px;
+  width: 210px;
+  border-radius: 3px;
+  border-color: rgb(119, 119, 119);
+}
+.wooz{
+  margin-top: 0px;
+  margin-left: 94px;
+  margin-bottom: 2px;
+  width: 210px;
+  border-radius: 3px;
+  border-color: rgb(119, 119, 119);
+}
+input {
+  width: 212px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: rgb(119, 119, 119);
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 87px;
+  height: 27px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  margin-top: 2px;
+  margin-bottom: 18px;
+  
+}
+label{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-left: 2px;
+  position: absolute;
+  text-align: left;
+  margin-top: 5px;
+  letter-spacing: 0.6px;
+}
+
+.l_name{
+  color: rgb(87, 86, 86);
+  padding-left: 40px;
+  letter-spacing: 1.2px;
+}
+.l_sname{
+  color: rgb(87, 86, 86);
+  padding-left: 0px;
+  font-size: 17px ;
+  letter-spacing: 0.5px;
+}
+.l_email{
+  color: rgb(87, 86, 86);
+  padding-left: 24px;
+  font-size: 17px ;
+  letter-spacing: 0px;
+}
+.l_pass{
+  color: rgb(87, 86, 86);
+  padding-left: 12px;
+  padding-top: 2px;
+  font-size: 17px ;
+  letter-spacing: 0.2px;
+}
+.l_country{
+  color: rgb(87, 86, 86);
+  margin-top: 2px;
+  padding-top: 0;
+  padding-left: 22px;
+  font-size: 17px ;
+  letter-spacing: 0.5px;
+}
+.l_city{
+  color: rgb(87, 86, 86);
+  margin-top: 22px;
+  padding-left: 35px;
+  font-size: 17px ;
+  letter-spacing: 0.4px;
+}
+.l_school{
+  color: rgb(87, 86, 86);
+  margin-top: 0px;
+  padding-top: 0;
+  padding-left: 24px;
+  font-size: 17px ;
+  letter-spacing: 0.5px;
+}
+.l_wooz{
+  color: rgb(87, 86, 86);
+  margin-top: 0px;
+  padding-top: 2px;
+  padding-left: 53px;
+  font-size: 17px ;
+  letter-spacing: 0.5px;
+}
+.b_confirm{
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  margin-top: 33px;
+  margin-bottom: 0;
+  margin-left: 40px;
+  padding-left: 46px;
+  width: 260px;
+}
+.span_warning{
+  color: rgb(130, 127, 127);
+  margin-left: 37px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+.alink{
+  text-decoration: none;
+  color: rgb(41, 85, 146);
+}
+
+
+#aducation{
+  font: 46px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;
+  margin-bottom: 32px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  word-spacing: 0.1px;
+}
+

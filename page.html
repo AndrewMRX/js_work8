@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы на веб-странице</title>
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+  <header>
+    <h1>Регистрация</h1>
+    <!--<nav>
+      <a href="#" title="На главную">На главную</a>
+    </nav>-->
+  </header>
+  <main>
+    <article class="c1">
+      <h2><img src="images/VK-0.jpg" alt="ВК лого" width="40" height="40" class="logoimg"><b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас<br> окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете<br> делиться информацией, ограничивая круг лиц, которым она будет доступна. </h2>
+      <form action="/signup" method="POST">
+        <h3>Имя</h3>
+        <fieldset>
+          <label class="l_name">Имя:</label>
+          <input type="text" required="required" name="first_name">
+          <span>Допускаются только настоящие имя и фамилия</span><br>
+          <label class="l_sname">Фамилия:</label>
+          <input type="text" required="required" name="last_name">
+          <span>Остальные регистрации будут удаляться</span><br>
+          <label class="l_email">E-Mail:</label>
+          <input type="text" required="required" id="email_notnull"><br>
+          <label class="l_pass">Пароль :</label>
+          <input type="password" name="password"><br>
+
+        </fieldset>
+        <h3><br><br>Образование</h3>
+        <fieldset class="account-action">
+          <label class="l_country">Страна:</label>
+          <select class="country" name="country">
+            <option>Беларусь</option>
+            <option>Россия</option>
+            <option>Украина</option>
+            <option>Польша</option>
+            <option>Литва</option>
+            <option>Латвия</option>
+            <option>Эстония</option>
+            <option>США</option>
+          </select>
+            <br>
+          <label class="l_city">Город:</label>
+          <select class="city" name="city">
+            <option>Минск</option>
+            <option>Москва</option>
+            <option>Киев</option>
+            <option>Варшава</option>
+            <option>Вильнюс</option>
+            <option>Рига</option>
+            <option>Таллин</option>
+            <option>Вашингтон</option>
+          </select>
+          <br><span class="span_city">Город, где Вы учились в школе или вузе:</span>
+        </fieldset>
+        <h4><br><br>Школа</h4>
+        <fieldset class="account-action">
+          <label class="l_school">Школа:</label>
+          <select class="school" name="country">
+            <option disabled selected value> - Выберите школу - </option>
+            <option>Гимназия №1</option>
+            <option>Гимназия №2</option>
+            <option>СШ №1</option>
+            <option>СШ №2</option>
+            <option>СШ №3</option>
+            <option>СШ №4</option>
+            <option>СШ №5</option>
+            <option>Церковно-приходская</option>
+          </select>
+          <h4>Университет</h4>
+          <label class="l_wooz">Вуз:</label>
+          <select class="wooz" name="city">
+            <option disabled selected value> - Выберите ВУЗ - </option>
+            <option>БГУ</option>
+            <option>МГУ</option>
+            <option>КНУ им.Тараса Шевченко</option>
+            <option>Варшавский университет</option>
+            <option>Vilnius Technical University</option>
+            <option>Латвийский университет</option>
+            <option>Тартуский университет</option>
+            <option>MIT</option>
+          </select><br>
+          <input class="b_confirm" type="submit" name="submit" value="Зарегистрироваться">
+          <br><span class="span_warning">Фактом регистрации Вы соглашаетесь с <a class="alink" href="https://vk.com/terms">Пользовательским соглашением</a></span>
+        </fieldset>
+      </form>
+    </article>
+    <!--<aside>
+      Тут могла быть ваша реклама
+    </aside>-->
+  </main>
+</body>
+
+</html>
